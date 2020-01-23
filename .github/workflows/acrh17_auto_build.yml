@@ -10,8 +10,6 @@
 name: ipq40xx-Autobuild
 
 on:
-  release:
-    types: [published]
     
   push:
     branches: 
