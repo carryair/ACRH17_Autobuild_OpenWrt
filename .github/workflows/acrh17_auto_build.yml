@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: ipq40xx-Autobuild-16X
+name: ipq40xx-Autobuild-171
 
 on:
     
