@@ -10,7 +10,6 @@
 name: ipq40xx-Autobuild-171
 
 on:
-    
   push:
     branches: 
       - master
@@ -69,7 +68,7 @@ jobs:
       - name: Generate configuration file
         run: |
           cd lede
-          wget https://raw.githubusercontent.com/carryair/ACRH17_Autobuild_OpenWrt/master/acrh17_config
+          wget https://raw.githubusercontent.com/ulpyuxa/ACRH17_Autobuild_OpenWrt/master/acrh17_config
           mv acrh17_config .config
 
       - name: Make download
