@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: ipq40xx-Autobuild-171
+name: ipq40xx-Autobuild-171-test config
 
 on:
   push:
